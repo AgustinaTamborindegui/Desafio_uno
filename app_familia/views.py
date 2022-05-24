@@ -23,4 +23,4 @@ def alta_familiares (request):
     familiar = Familiares (nombre = "Susana", fecha_de_nacimiento = "1990-12-09", edad= 40)
     familiar.save()
 
-    return HttpResponse ("todo ok")
+    return HttpResponse ("funciona")
